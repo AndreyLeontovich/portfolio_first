@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    max-width: 1496px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.first_name{
+    color: rgb(255, 140, 0);
+}
+
+header{
+    padding: 60px 80px;
+    background-color: rgb(255, 140, 0);;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: rgb(255, 255, 255);
+}
+
+img{
+    max-width: 100%;
+}
+
+.user-image{
+    max-width: 500px;
+    height: auto;
+}
+
+
+main{
+    padding: 60px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 40px;
+}
+
+.desc{
+    max-width: 760px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 45px;
+    color: #6B6868;
+    margin-bottom: 52px;
+}
+
+.btn{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 30px 50px ;
+    display: inline-block;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.buttons{
+    display: flex;
+    gap: 38px;
+    flex-wrap: wrap;
+}
+
+._secondary{
+    background-color: #000000;
+    color: #fff;
+}
