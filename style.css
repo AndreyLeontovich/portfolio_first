@@ -57,6 +57,7 @@ img{
 .user-image{
     max-width: 500px;
     height: auto;
+    margin-bottom: 50px;
 }
 
 
@@ -105,4 +106,32 @@ main{
 ._secondary{
     background-color: #000000;
     color: #fff;
+}
+
+
+.two{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgb(255, 128, 0);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+   
+}
+
+.square{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #0000005f;
+    position: relative;
+    
+}
+
+.user_img{
+    
+   padding-right: 10px;
 }
